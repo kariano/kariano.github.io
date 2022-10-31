@@ -1,4 +1,3 @@
-//so I like what this is doing with the random colours and the grid but i wish it would draw the boxes instead of doing a line at a time - see the other sketch for what I mean. Also maybe intersted in the boxes growing in a tree kind of way if possible - outwards only
 
 var r, g, b, a, randomSaturatedColors, randomUnsaturatedColors;
 var x;
@@ -14,7 +13,7 @@ var piece
 var framesPerSide = 20
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth/2, windowHeight/2);
     x = width / 2;
     y = height / 2;
     background(250);

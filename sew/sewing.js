@@ -6,7 +6,6 @@ var PreviousXPosition;
 var PreviousYPosition;
 //let lapse = 0;    // mouse timer
 
-
 var slowDraw = false
 var step = 150;
 var overallLength
@@ -19,9 +18,6 @@ function setup() {
     y = height / 2;
     background(250);
     frameRate(10)
-}
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
@@ -117,6 +113,6 @@ function setLineDash(list) {
 // }
 //}
 function mousePressed() {
- // if (mouseX > 0 && mouseX < 100 && mouseY > 0 && mouseY < 100) {
+  //if (mouseX > 0 && mouseX < 100 && mouseY > 0 && mouseY < 100) {
     let fs = fullscreen();
     fullscreen(!fs);}

@@ -13,7 +13,7 @@ var piece
 var framesPerSide = 20
 
 function setup() {
-    createCanvas(windowWidth/2, windowHeight/2);
+    createCanvas(width/2, height/2);
     x = width / 2;
     y = height / 2;
     background(250);

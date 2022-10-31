@@ -5,6 +5,12 @@ var y;
 var PreviousXPosition;
 var PreviousYPosition;
 //let lapse = 0;    // mouse timer
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
 var slowDraw = false
 var step = 150;
